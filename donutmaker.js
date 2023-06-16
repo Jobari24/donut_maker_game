@@ -42,4 +42,31 @@ resetMe.addEventListener("click", function () {
   clearInterval((count = 0), (autoCount = 0), (perNum = 0), (autoCost = 100));
   perSec.innerHTML = `Clicks Per Second: ${perNum}`;
   donutCount.innerHTML = `Donut Count: ${count}`;
+  autoClick.innerHTML = `Auto Clicker Cost: ${autoCost}`;
 });
+
+const aboutBtn = document.querySelector("#aboutBtn");
+
+const inspirationBtn = document.querySelector("#inspirationBtn");
+
+const contactBtn = document.querySelector("#contactBtn");
+
+const showCont1 = document.querySelector(".dp-container1");
+
+const showCont2 = document.querySelector(".dp-container2");
+
+const showCont3 = document.querySelector(".dp-container3");
+
+const dpLink1 = document.querySelector("#dpLink1");
+
+const dpLink2 = document.querySelector("#dpLink2");
+
+const dpLink3 = document.querySelector("#dpLink3");
+
+function dropIt() {
+  if (showCont1.style.display === "none") {
+    showCont1.style.display = "block";
+  } else {
+    showCont1.style.display = "none";
+  }
+}
