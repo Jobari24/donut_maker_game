@@ -5,14 +5,10 @@
 
 .container {
   background-color: rgb(100, 56, 67);
-  width: 100%;
-  min-width: 1000px;
-  height: auto;
 }
 
 .header {
   text-align: start;
-  padding-top: 10px;
   color: rgb(231, 203, 203);
   width: 100%;
   height: auto;
@@ -26,7 +22,7 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 15px;
+  padding: 10px;
   align-items: center;
 }
 
@@ -104,29 +100,24 @@ a:hover {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
-  height: auto;
-  width: 100%;
 }
 
 .main-grid {
   display: grid;
   background: rgb(153, 98, 122);
   justify-self: center;
-  width: 170ch;
+  width: 66em;
+  height: auto;
 }
 
 #donutCount {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 100px;
   color: black;
 }
 
 .donut-img {
-  height: 500px;
-  width: auto;
   justify-self: center;
   align-self: center;
   border: none;
@@ -136,8 +127,8 @@ a:hover {
   display: grid;
   background: rgb(200, 142, 167);
   justify-self: end;
-  width: 560px;
-  height: 755px;
+  width: 479px;
+  height: auto;
 }
 
 .right-button {
