@@ -88,7 +88,17 @@ a:hover {
 
 #dp-container1 {
   width: 500px;
-  height: 140px;
+  height: auto;
+}
+
+#dp-container2 {
+  width: 170px;
+  height: auto;
+}
+
+#dp-container3 {
+  width: 500px;
+  height: auto;
 }
 
 .dropdown-img {
